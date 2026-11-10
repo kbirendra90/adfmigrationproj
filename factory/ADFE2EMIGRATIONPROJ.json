@@ -1,0 +1,15 @@
+{
+	"name": "ADFE2EMIGRATIONPROJ",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "626cd7da-2b29-40b1-9ba0-af3773e5525b",
+		"tenantId": "e400362c-0b90-47d4-9378-98488dba1514"
+	}
+}
