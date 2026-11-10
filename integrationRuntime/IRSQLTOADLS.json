@@ -1,0 +1,6 @@
+{
+	"name": "IRSQLTOADLS",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
