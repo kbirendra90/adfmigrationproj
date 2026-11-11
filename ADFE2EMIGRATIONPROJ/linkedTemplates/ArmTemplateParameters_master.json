@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFE2EMIGRATIONPROJ"
+		},
+		"LS_SQLTOADLS_password": {
+			"value": ""
+		},
+		"LS_SQLTOADLS_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SQLTOADLS_properties_typeProperties_database": {
+			"value": "DataEngineeringDB"
+		},
+		"LS_SQLTOADLS_properties_typeProperties_userName": {
+			"value": "birendra"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
