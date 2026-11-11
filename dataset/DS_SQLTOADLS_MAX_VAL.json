@@ -1,0 +1,20 @@
+{
+	"name": "DS_SQLTOADLS_MAX_VAL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLTOADLS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
