@@ -8,6 +8,9 @@
 		"LS_SQLTOADLS_password": {
 			"value": ""
 		},
+		"LS_SQL_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
 		"LS_SQLTOADLS_properties_typeProperties_server": {
 			"value": "localhost"
 		},
@@ -16,6 +19,9 @@
 		},
 		"LS_SQLTOADLS_properties_typeProperties_userName": {
 			"value": "birendra"
+		},
+		"LS_SQL_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://migrationprojadls.dfs.core.windows.net/"
 		}
 	}
 }
