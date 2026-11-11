@@ -38,7 +38,7 @@
 					{
 						"activity": "LKUP_SQLTBL_WATERMARK",
 						"dependencyConditions": [
-							"Skipped"
+							"Succeeded"
 						]
 					}
 				],
