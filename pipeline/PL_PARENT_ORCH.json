@@ -28,7 +28,7 @@
 						"referenceName": "DS_SQLTOADLS_LKUP",
 						"type": "DatasetReference"
 					},
-					"firstRowOnly": true
+					"firstRowOnly": false
 				}
 			},
 			{
@@ -48,6 +48,7 @@
 						"value": "@activity('LKUP_SQLTBL_WATERMARK').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "EXEC_SQL_INCREMENTAL",
