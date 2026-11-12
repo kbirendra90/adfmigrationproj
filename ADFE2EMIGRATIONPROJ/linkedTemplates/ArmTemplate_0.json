@@ -483,7 +483,7 @@
 								"type": "DatasetReference",
 								"parameters": {}
 							},
-							"firstRowOnly": true
+							"firstRowOnly": false
 						}
 					},
 					{
@@ -503,6 +503,7 @@
 								"value": "@activity('LKUP_SQLTBL_WATERMARK').output.value",
 								"type": "Expression"
 							},
+							"isSequential": false,
 							"activities": [
 								{
 									"name": "EXEC_SQL_INCREMENTAL",
