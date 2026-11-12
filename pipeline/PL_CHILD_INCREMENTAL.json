@@ -128,6 +128,43 @@
 									}
 								}
 							]
+						},
+						{
+							"name": "EXEC_UPDATE_WATERMARK",
+							"type": "ExecutePipeline",
+							"dependsOn": [
+								{
+									"activity": "COPY_SQLTABLES_FULL_INCREMNTL_LOAD",
+									"dependencyConditions": [
+										"Succeeded"
+									]
+								}
+							],
+							"policy": {
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"pipeline": {
+									"referenceName": "PL_CHILD_STOREDPROCEDURE",
+									"type": "PipelineReference"
+								},
+								"waitOnCompletion": true,
+								"parameters": {
+									"TableSchema": {
+										"value": "@pipeline().parameters.TableSchema",
+										"type": "Expression"
+									},
+									"TableName": {
+										"value": "@pipeline().parameters.TableName",
+										"type": "Expression"
+									},
+									"WatermarkColumn": {
+										"value": "@pipeline().parameters.WatermarkColumn",
+										"type": "Expression"
+									}
+								}
+							}
 						}
 					]
 				}
