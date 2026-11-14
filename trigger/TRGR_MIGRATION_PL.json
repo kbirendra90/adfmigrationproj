@@ -1,0 +1,34 @@
+{
+	"name": "TRGR_MIGRATION_PL",
+	"properties": {
+		"description": "IT will run daily at 7:50 AM",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_PARENT_ORCH",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-14T02:07:00",
+				"endTime": "2026-11-17T02:07:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						50
+					],
+					"hours": [
+						7
+					]
+				}
+			}
+		}
+	}
+}
