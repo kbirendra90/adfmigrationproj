@@ -576,14 +576,14 @@
 						"frequency": "Day",
 						"interval": 1,
 						"startTime": "2026-11-14T02:07:00",
-						"endTime": "2026-11-17T02:07:00",
+						"endTime": "2026-11-30T02:07:00",
 						"timeZone": "India Standard Time",
 						"schedule": {
 							"minutes": [
-								50
+								18
 							],
 							"hours": [
-								7
+								8
 							]
 						}
 					}
