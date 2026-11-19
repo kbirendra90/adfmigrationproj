@@ -22,10 +22,10 @@
 				"timeZone": "India Standard Time",
 				"schedule": {
 					"minutes": [
-						50
+						10
 					],
 					"hours": [
-						7
+						8
 					]
 				}
 			}
